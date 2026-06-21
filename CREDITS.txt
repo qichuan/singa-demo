@@ -1,0 +1,4 @@
+SINGA — Legend of the Lion City (Three.js demo build)
+
+Character base mesh: Mixamo "X Bot" (Adobe), re-skinned. Built with three.js.
+Source (private): github.com/qichuan/game-singa
