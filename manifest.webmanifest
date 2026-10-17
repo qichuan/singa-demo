@@ -1,0 +1,17 @@
+{
+  "name": "Singapore Planet",
+  "short_name": "SG Planet",
+  "start_url": "./",
+  "display": "fullscreen",
+  "orientation": "any",
+  "background_color": "#7cc4ea",
+  "theme_color": "#7cc4ea",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
