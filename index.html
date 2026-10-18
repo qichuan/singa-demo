@@ -17,7 +17,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&display=swap" rel="stylesheet">
   <!-- signboard typefaces (drawn into the sign atlas; CJK fonts download only the glyphs used) -->
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600&family=Ma+Shan+Zheng&family=Noto+Sans+SC:wght@700;900&family=Noto+Serif+SC:wght@700;900&family=Noto+Serif+Tamil:wght@700&family=Oswald:wght@500;700&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=mvd0yt8x">
+  <link rel="stylesheet" href="style.css?v=mvd30gk4">
   </head>
 <body>
   <canvas id="c"></canvas>
@@ -52,6 +52,7 @@
   </div>
 
   <div id="joy" class="hidden"><div id="joyKnob"></div></div>
+  <button id="btnJump" class="hidden" aria-label="Jump">JUMP</button>
 
   <div id="modal" class="hidden">
     <div class="modal-card">
@@ -71,8 +72,8 @@
         <button class="btn big primary" id="btnStart">Start</button>
       </div>
       <div class="controls">
-        <div><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> walk (hold to speed up) · <kbd>Shift</kbd> run · drag to look · <kbd>E</kbd> talk · <kbd>M</kbd> map</div>
-        <div class="touch-only">Use the joystick to walk (hold to speed up), drag to look around</div>
+        <div><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> walk (hold to speed up) · <kbd>Shift</kbd> run · <kbd>Space</kbd> jump · drag to look · <kbd>E</kbd> talk · <kbd>M</kbd> map</div>
+        <div class="touch-only">Touch the left side to walk (hold to speed up), drag the right side to look around, tap JUMP to hop</div>
       </div>
     </div>
   </div>
@@ -82,6 +83,6 @@
   <div id="flash"></div>
   <div id="fps" class="hidden"></div>
 
-  <script type="module" src="game.js?v=mvd0yt8x"></script>
+  <script type="module" src="game.js?v=mvd30gk4"></script>
 </body>
 </html>
