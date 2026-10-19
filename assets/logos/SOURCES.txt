@@ -1,0 +1,14 @@
+Downloaded 2026-10-20 from Wikimedia (file pages give the full licence details):
+uob.svg        https://commons.wikimedia.org/wiki/File:UOB_Logo_(2022).svg              public domain
+ocbc.svg       https://commons.wikimedia.org/wiki/File:Logo-ocbc.svg                     public domain
+mbs.svg        https://commons.wikimedia.org/wiki/File:Marina_Bay_Sands_logo.svg         public domain
+rws.svg        https://commons.wikimedia.org/wiki/File:Resorts_World_Sentosa_logo.svg    public domain
+sentosa.svg    https://commons.wikimedia.org/wiki/File:Sentosa_logo.svg                  public domain
+sesame.svg     https://commons.wikimedia.org/wiki/File:Sesame_Street_logo.svg            public domain
+despicable.svg https://commons.wikimedia.org/wiki/File:Despicable_Me_logo.svg            public domain
+mandai.svg     https://commons.wikimedia.org/wiki/File:Mandai_Wildlife_Group_logo.svg    public domain
+changi.svg     https://en.wikipedia.org/wiki/File:Changi_Airport_logo.svg                public domain
+sbs.svg        https://en.wikipedia.org/wiki/File:SBS_Transit_logo.svg                   public domain
+maybank.svg    https://en.wikipedia.org/wiki/File:Maybank_logo.svg                       non-free (fair use)
+ntu.svg        https://en.wikipedia.org/wiki/File:Nanyang_Technological_University_coat_of_arms_vector.svg  non-free (fair use)
+All are trademarks of their owners.
