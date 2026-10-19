@@ -1,0 +1,11 @@
+Animated low-poly dinosaurs (T-Rex, Velociraptor, Triceratops, Parasaurolophus, Stegosaurus, Apatosaurus)
+by Quaternius (https://quaternius.com), downloaded as GLB from poly.pizza:
+  https://poly.pizza/m/UYtneO5FpF  T-Rex
+  https://poly.pizza/m/cnlGH2UcDd  Velociraptor
+  https://poly.pizza/m/IGvrUqGrRM  Triceratops
+  https://poly.pizza/m/KeeQrrouRK  Parasaurolophus
+  https://poly.pizza/m/eFcNbOlpvl  Stegosaurus
+  https://poly.pizza/m/fvo0x8Zk3z  Apatosaurus
+
+License: Public Domain (CC0 1.0 Universal)
+https://creativecommons.org/publicdomain/zero/1.0/
