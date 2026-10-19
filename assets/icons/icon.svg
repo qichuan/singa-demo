@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Little Planet SG: a tiny planet with Marina Bay Sands on top, an orbit and a red SG badge -->
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a6dcf8"/><stop offset="1" stop-color="#5aaee4"/>
+    </linearGradient>
+    <radialGradient id="sea" cx="0.38" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#6cc6ee"/><stop offset="0.65" stop-color="#2f8fd0"/><stop offset="1" stop-color="#22709f"/>
+    </radialGradient>
+    <clipPath id="ball"><circle cx="256" cy="330" r="156"/></clipPath>
+    <clipPath id="front"><rect x="-100" y="330" width="712" height="300"/></clipPath>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#sky)"/>
+  <g transform="rotate(-14 256 330)">
+    <ellipse cx="256" cy="330" rx="226" ry="60" fill="none" stroke="#ffffff" stroke-opacity="0.7" stroke-width="12"/>
+  </g>
+  <circle cx="256" cy="330" r="160" fill="url(#sea)" stroke="#23324a" stroke-width="12"/>
+  <g clip-path="url(#ball)">
+    <!-- the island: beach round green -->
+    <path d="M118 262 C170 214 262 196 344 214 C404 228 430 262 418 300 C392 336 326 330 286 352 C236 380 172 372 132 346 C100 324 96 290 118 262 Z" fill="#f1dfa8"/>
+    <path d="M132 266 C180 226 262 210 340 226 C392 238 412 266 402 294 C380 322 322 318 284 338 C236 364 176 358 140 334 C114 316 112 288 132 266 Z" fill="#7fc25a"/>
+    <path d="M196 260 C226 244 270 242 300 254 C292 272 252 282 222 280 C204 278 192 272 196 260 Z" fill="#a8dc80"/>
+    <path d="M196 424 C236 404 300 408 336 426 C322 456 270 470 234 462 C210 456 192 442 196 424 Z" fill="#7fc25a"/>
+    <ellipse cx="206" cy="232" rx="78" ry="26" fill="#ffffff" fill-opacity="0.2"/>
+  </g>
+  <!-- Marina Bay Sands: three towers, each with a leaning leg, and the SkyPark ship across the top -->
+  <g stroke="#23324a" stroke-width="8" stroke-linejoin="round" fill="#f2f6fa">
+    <path d="M190 176 L198 66 L222 66 C220 110 226 150 238 172 Z"/>
+    <path d="M240 172 L244 62 L268 62 C266 108 272 148 284 170 Z"/>
+    <path d="M290 172 L292 64 L316 64 C314 108 322 150 336 176 Z"/>
+  </g>
+  <path d="M168 60 C220 50 300 46 372 44 C384 44 386 52 376 56 C320 62 240 68 182 72 C166 72 160 64 168 60 Z" fill="#dfe8f0" stroke="#23324a" stroke-width="8" stroke-linejoin="round"/>
+  <!-- the orbit again, in front of the planet -->
+  <g transform="rotate(-14 256 330)" clip-path="url(#front)">
+    <ellipse cx="256" cy="330" rx="226" ry="60" fill="none" stroke="#ffffff" stroke-width="12"/>
+  </g>
+  <path d="M58 296 l10 -21 l10 21 l23 3 l-17 15 l6 22 l-22 -12 l-22 12 l6 -22 l-17 -15 z" fill="#ffd23a" stroke="#23324a" stroke-width="6" stroke-linejoin="round"/>
+  <g transform="translate(400 412)">
+    <circle r="64" fill="#e2383f" stroke="#23324a" stroke-width="12"/>
+    <text y="22" text-anchor="middle" font-family="'Baloo 2','Arial Rounded MT Bold',Arial,sans-serif" font-weight="800" font-size="62" fill="#ffffff">SG</text>
+  </g>
+</svg>

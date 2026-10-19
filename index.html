@@ -3,21 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
-  <title>Singapore Planet: A Little Island Adventure</title>
+  <title>Little Planet SG: A Little Island Adventure</title>
   <meta name="description" content="A free 3D browser game: Singapore shrunk into a tiny cartoon planet. Order kopi at the kopitiam, chope a table at Lau Pa Sat, snap the Merlion, watch the Supertrees light up, see the Rain Vortex at Changi, ride past the Universal globe, climb the grass roofs at NTU, see the Sultan Mosque and the Zoo, walk the Causeway, and ride Launch Stars to Pulau Ubin and the top of the planet.">
   <link rel="manifest" href="manifest.webmanifest">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="apple-mobile-web-app-title" content="SG Planet">
+  <meta name="apple-mobile-web-app-title" content="Little Planet SG">
   <meta name="theme-color" content="#7cc4ea">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☂️</text></svg>">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/icon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/icon-32.png">
+  <link rel="apple-touch-icon" href="assets/icons/icon-180.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&display=swap" rel="stylesheet">
   <!-- signboard typefaces (drawn into the sign atlas; CJK fonts download only the glyphs used) -->
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600&family=Ma+Shan+Zheng&family=Noto+Sans+SC:wght@700;900&family=Noto+Serif+SC:wght@700;900&family=Noto+Serif+Tamil:wght@700&family=Oswald:wght@500;700&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=mvfdemqj">
+  <link rel="stylesheet" href="style.css?v=mvffycuy">
   </head>
 <body>
   <canvas id="c"></canvas>
@@ -76,7 +78,8 @@
 
   <div id="title" class="hidden">
     <div class="title-card">
-      <div class="logo">Singapore<br><span>Planet</span></div>
+      <img class="logo-icon" src="assets/icons/icon.svg" alt="">
+      <div class="logo">Little Planet <span>SG</span></div>
       <div class="tagline">A little island adventure</div>
       <div class="pick-label">Choose your explorer</div>
       <div id="picker"></div>
@@ -91,11 +94,11 @@
     </div>
   </div>
 
-  <div id="loading"><div class="spinner">☂️</div><span>Loading…</span><div class="bar"><i></i></div></div>
+  <div id="loading"><img class="spinner" src="assets/icons/icon.svg" alt=""><div class="logo small">Little Planet <span>SG</span></div><span>Loading…</span><div class="bar"><i></i></div></div>
   <div id="fade"></div>
   <div id="flash"></div>
   <div id="fps" class="hidden"></div>
 
-  <script type="module" src="game.js?v=mvfdemqj"></script>
+  <script type="module" src="game.js?v=mvffycuy"></script>
 </body>
 </html>
