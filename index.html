@@ -19,7 +19,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&display=swap" rel="stylesheet">
   <!-- signboard typefaces (drawn into the sign atlas; CJK fonts download only the glyphs used) -->
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600&family=Ma+Shan+Zheng&family=Noto+Sans+SC:wght@700;900&family=Noto+Serif+SC:wght@700;900&family=Noto+Serif+Tamil:wght@700&family=Oswald:wght@500;700&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=mvft4k6w">
+  <link rel="stylesheet" href="style.css?v=mvg3kyt2">
   </head>
 <body>
   <canvas id="c"></canvas>
@@ -57,6 +57,7 @@
 
   <div id="joy" class="hidden"><div id="joyKnob"></div></div>
   <button id="btnJump" class="hidden" aria-label="Jump">JUMP</button>
+  <button id="btnSpin" class="hidden" aria-label="Spin">SPIN</button>
 
   <div id="shoot" class="hidden">
     <div class="vf"><i></i><i></i><i></i><i></i></div>
@@ -88,8 +89,8 @@
         <button class="btn big primary" id="btnStart">Start</button>
       </div>
       <div class="controls">
-        <div><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> walk (hold to speed up) · <kbd>Shift</kbd> run · <kbd>Space</kbd> jump · drag to look · <kbd>E</kbd> talk · <kbd>C</kbd> camera · <kbd>M</kbd> map</div>
-        <div class="touch-only">Touch the left side to walk (hold to speed up), drag the right side to look around, tap JUMP to hop</div>
+        <div><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> run · <kbd>Shift</kbd> walk · <kbd>Space</kbd> jump (again as you land: triple jump) · <kbd>Q</kbd> spin · <kbd>Z</kbd>+<kbd>Space</kbd> long jump / backflip · <kbd>Z</kbd> in the air: ground pound · drag to look · <kbd>E</kbd> talk · <kbd>C</kbd> camera · <kbd>M</kbd> map</div>
+        <div class="touch-only">Touch the left side to run (push gently to walk), drag the right side to look around. JUMP hops (hold for higher, tap again as you land for a triple jump); SPIN twirls, and tapped again in the air, ground-pounds</div>
       </div>
     </div>
   </div>
@@ -99,6 +100,6 @@
   <div id="flash"></div>
   <div id="fps" class="hidden"></div>
 
-  <script type="module" src="game.js?v=mvft4k6w"></script>
+  <script type="module" src="game.js?v=mvg3kyt2"></script>
 </body>
 </html>
