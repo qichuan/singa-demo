@@ -19,7 +19,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&display=swap" rel="stylesheet">
   <!-- signboard typefaces (drawn into the sign atlas; CJK fonts download only the glyphs used) -->
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600&family=Ma+Shan+Zheng&family=Noto+Sans+SC:wght@700;900&family=Noto+Serif+SC:wght@700;900&family=Noto+Serif+Tamil:wght@700&family=Oswald:wght@500;700&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=mvgs2cuk">
+  <link rel="stylesheet" href="style.css?v=mvmbtlir">
   </head>
 <body>
   <canvas id="c"></canvas>
@@ -29,6 +29,7 @@
       <div class="pill" id="wallet">💰 $5</div>
       <div class="pill" id="clock">☀️ 8:00am</div>
       <div class="pill" id="starPill">⭐ 0</div>
+      <div class="pill" id="bitPill">✨ 0</div>
       <div class="pill" id="albumPill">🍽️ 0/10</div>
     </div>
     <div class="hud-right">
@@ -46,7 +47,9 @@
   <div id="labels"></div>
   <div id="mapHint" class="hidden">Drag to spin the planet · Tap a place to umbrella-drop there · <kbd>M</kbd> to close</div>
   <div id="toasts"></div>
+  <div id="banner" class="hidden"><div class="bn-icon"></div><div class="bn-title"></div><div class="bn-name"></div><div class="bn-sub"></div></div>
   <button id="prompt" class="hidden"></button>
+  <div id="hint" class="hidden"></div>
 
   <div id="dlg" class="hidden">
     <div class="dlg-name"></div>
@@ -101,6 +104,6 @@
   <div id="flash"></div>
   <div id="fps" class="hidden"></div>
 
-  <script type="module" src="game.js?v=mvgs2cuk"></script>
+  <script type="module" src="game.js?v=mvmbtlir"></script>
 </body>
 </html>
