@@ -19,7 +19,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&display=swap" rel="stylesheet">
   <!-- signboard typefaces (drawn into the sign atlas; CJK fonts download only the glyphs used) -->
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600&family=Ma+Shan+Zheng&family=Noto+Sans+SC:wght@700;900&family=Noto+Serif+SC:wght@700;900&family=Noto+Serif+Tamil:wght@700&family=Oswald:wght@500;700&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=mvnqfomf">
+  <link rel="stylesheet" href="style.css?v=mvnr3fq7">
   </head>
 <body>
   <canvas id="c"></canvas>
@@ -66,12 +66,14 @@
   <div id="shoot" class="hidden">
     <div class="vf"><i></i><i></i><i></i><i></i></div>
     <button class="round" id="camClose" title="Close the camera (Esc)" aria-label="Close the camera">✕</button>
-    <div class="shoot-hint">Drag to frame the shot · scroll or pinch to zoom · 🔭 binoculars for far-off animals · walk to creep closer</div>
+    <div class="shoot-hint" id="camHint"></div>
+    <label class="cam-zoom"><span>🔍</span><input type="range" id="camZoom" min="1" max="4" step="0.05" value="1" aria-label="Zoom"><span id="camZoomV">1.0×</span></label>
     <div class="shoot-bar">
-      <button class="btn" id="camPose" title="Change pose (P)">🙂 Stand</button>
+      <button class="btn" id="camView" title="Turn the camera round for a selfie (V)">🤳 Selfie</button>
+      <button class="btn sel-only" id="camPose" title="Change pose (P)">🙂 Stand</button>
       <button id="camSnap" title="Take the photo (Space)" aria-label="Take the photo"></button>
-      <button class="btn" id="camFace" title="Turn to the camera (F)">🤳 Face me</button>
-      <button class="btn" id="camZoom" title="Binoculars: zoom in on far-off animals (B)">🔭 1×</button>
+      <button class="btn sel-only" id="camFace" title="Turn to the camera (F)">🙂 Face me</button>
+      <button class="btn eye-only hidden" id="camTilt" title="Point the camera by turning your phone">🧭 Tilt: On</button>
     </div>
   </div>
 
@@ -106,6 +108,6 @@
   <div id="flash"></div>
   <div id="fps" class="hidden"></div>
 
-  <script type="module" src="game.js?v=mvnqfomf"></script>
+  <script type="module" src="game.js?v=mvnr3fq7"></script>
 </body>
 </html>
